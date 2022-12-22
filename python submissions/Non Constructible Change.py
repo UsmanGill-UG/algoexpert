@@ -8,4 +8,9 @@ def nonConstructibleChange(coins):
     return change + 1
 
 
-
+'''
+Explanation:
+    [1,1,2]
+     change + 1 must be smaller than the next coin in the array 
+     if it is not then obviously we can not make change + 1
+'''
