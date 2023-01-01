@@ -9,8 +9,12 @@ def nonConstructibleChange(coins):
 
 
 '''
+
+Complexity :  nlogn + n =  O(nlogn)
+
 Explanation:
-    [1,1,2]
+     e.g  [1,1,2]
      change + 1 must be smaller than the next coin in the array 
      if it is not then obviously we can not make change + 1
+     
 '''

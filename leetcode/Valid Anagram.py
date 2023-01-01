@@ -1,3 +1,8 @@
+'''
+  Question Number #
+   
+'''
+
 def isAnagram(s, t):
     if len(s)!=len(t):
         return False
@@ -9,3 +14,10 @@ def isAnagram(s, t):
         if result[i] != 0:
             return False
     return True
+
+
+'''
+    Complexity :
+    
+ 
+'''
