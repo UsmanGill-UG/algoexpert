@@ -1,10 +1,13 @@
 function twoNumberSum(array, targetSum) {
   // Write your code here.
   const num = {};
-  for (const i of array) {
-    if (targetSum - i in num) {
+  for (const i of array)
+  {
+    if (targetSum - i in num)
+    {
       return [targetSum - i, i];
-    } else {
+    } else
+    {
       num[i] = i;
     }
   }
